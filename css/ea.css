@@ -1,0 +1,325 @@
+/* general body properties */
+
+body {
+    /* This defaults to Helvetica Neue if the viewer has it installed (e.g., Macs) 
+       and use a lighter font weight. If they don't have it, we use a decent font from Google Web Fonts. */
+    
+    /* Warning: if you want alternate font weights, you need to go back to Google Web Fonts and include them in the collection that gets included via <link> */
+/*    font-weight: 300;*/
+    font-family: 'Segoe UI', Arial,sans-serif;
+    font-size: 12px;
+}
+
+a {
+    color: #673AB7; /*#673AB7;*/  /*#4E4E4E;*/ /*#9E3100 ;*/  /* #B92A1D; */
+}
+
+.highlight-text{
+  color: #ee5f5b;
+  /*font-family:'Segoe UI';*/
+/*  font-size: 12px;
+*/}
+
+.projecthead{
+  color:#9E3100  ;
+}
+
+a:hover {
+    color: #D1C4E9; /* #B9AAAA;*/
+}
+
+.table th, .table td {
+    border-top: 0px;
+}
+
+h3  {
+    /* color: #9E3100 ;  /* #B92A1D;*/
+    font-size: 30px;
+    /*font-family:'Merienda', cursive;*/
+    font-weight: 400;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+.pottery{
+    height: 150px;
+}
+
+/* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+h4 {
+    /*color: #9E3100 ;  /* #B92A1D;*/
+    font-size: 16px;
+    font-family:'Segoe UI Semibold';
+    font-weight: 400;
+    line-height: 1.2;
+    padding-bottom: 5px;
+    /*padding-top: 10px;*/
+    text-transform: uppercase;
+
+}
+
+h5 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.paper-title{
+  font-family: "Segoe UI Semibold";
+}
+/* bootstrap properties */
+
+#eanav.navbar-static-top {
+    padding-bottom: 25px;
+}
+
+.navbar{
+  padding-left: 0px;
+}
+#eanav .navbar {
+  background-color: white;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+  border-color: #777777;
+  min-height: 50px;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 20px;
+
+}
+
+#eanav .navbar-brand  {
+    color: black;  /* #B92A1D;*/
+    font-size: 28px;
+    font-family:'Segoe UI Semibold';
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.nav  {
+    color: #9E3100 ;  
+    font-size: 19px;
+    font-family:'Segoe UI Semibold';
+    font-weight: 400;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sidenav > .nav {
+  border: 1px solid #CCCCCC;
+}
+
+
+
+
+
+.navbar .nav li .nav-link > a:hover{
+    color: #B9AAAA;
+    background-color: white;
+}
+
+.navbar .nav li .nav-link{
+    color: #B9AAAA;
+    background-color: white;
+}
+
+.navbar .nav li .active {
+    color: black;
+    background-color: white;
+}
+
+/*.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    color: #2B3641;
+    text-decoration: none;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.125);
+    -moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0.125);
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.125);
+}
+
+
+.nav-pills, .nav-pills .active > a, .nav-pills .active > a:hover {
+  background-color: white;
+}
+*/
+/*.nav-list > .active > a, .nav-list > .active > a:hover {
+  background-color: white;
+}
+*/
+
+.table-condensed {
+    margin-bottom: 0px;
+}
+.table-condensed td {
+    padding: 0px 0px;
+}
+
+.text-success {
+    font-variant:small-caps;
+}
+
+.label {
+    font-weight: normal;
+}
+
+.label, .badge {
+    background-color: rgb(211, 211, 211); /* #999999; */
+    color: rgb(88, 61, 61); /* #FFFFFF; */
+    display: inline-block;
+    font-size: 11.844px;
+    font-weight: normal;
+    line-height: 14px;
+    padding: 2px 4px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+
+/* ea-defined properties */
+
+.paperimg {
+    margin-bottom: 10px; 
+    margin-top: 15px; 
+    margin-right: 20px;
+    margin-left: 20px;
+
+    height: 100px;
+
+    border: 1px solid #787878;
+    min-width: 120px;
+    max-width: 120px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.papers tr.old {
+    display: none;
+}
+
+.papers td {
+    vertical-align: top;
+    padding-left: 0px;
+}
+
+.olddate, .olddate a {
+    color: #AAAAAA;
+}
+
+.faq {
+    text-align: justify;
+}
+
+.btn-link {
+    padding: 0px 0px 30px 0px;
+}
+
+#bio-img{
+  /*width: 30%;*/
+  /*height: auto;*/
+  max-height: 200px;
+  float: right;
+}
+
+.img-icon{
+  max-height : 18px;
+}
+
+.img-project{
+  max-width: 100%;
+}
+
+@media (min-width: @screen-sm-min) { 
+  #bio-img{
+    width: 30%;
+    /*height: auto;*/
+    max-height: 200px;
+    float: right;
+  }
+}
+
+.color-1{
+  color: rgb(22, 117, 166);
+}
+
+.color-2{
+  color: rgb(3, 60, 89);
+}
+
+.color-3{
+  color: rgb(115, 103, 42);
+}
+
+.color-4{
+  color: rgb(215, 150, 40);
+}
+
+.color-border-1{
+  border-color: rgb(22, 117, 166)!important;
+}
+
+.color-border-2{
+  border-color: rgb(3, 60, 89)!important;
+}
+
+.color-border-3{
+  border-color: rgb(115, 103, 42)!important;
+}
+
+.color-border-4{
+  border-color: rgb(215, 150, 40)!important;
+}

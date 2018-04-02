@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elena Agapie; HCI Researcher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <!-- to see or edit this font collection, go to http://www.google.com/webfonts#UsePlace:use/Collection:Lato|Open+Sans:300italic,400italic,400,300,700 -->
+    <link href='http://fonts.googleapis.com/css?family=Neucha|Merienda|Crimson+Text|Lato|Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link href="bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ea.css" rel="stylesheet">    
+
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>    
+    
+    <!-- javascript includes are at the bottom of the document -->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>  
+  
+<body>
+
+<div class="container">
+
+    <div class="row">          
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-10">
+            <div id="eanav" class="navbar navbar-light ">
+               
+            </div>
+
+        </div>
+        <div class="col-sm-1">
+        </div>   
+
+    </div>        
+
+    <!-- Main hero unit for a primary marketing message or call to action -->
+    <div class="row">          
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-6">
+            <div class="main">
+                <h4>
+                    Lapse management for behavior change
+                </h4>
+                <img src="img/lapsemanagement.PNG" class = "img-project"> </img>
+                <br>
+                <p>
+                    This work shows the potential value of lapse management for a program that involves reducing an unwanted behavior (time spent on a vice website). Results from the field deployment showed that giving users tools to manage their lapses led to significantly better performance. Despite having cheat minutes to use beyond their goal's limit, participants with lapse management spent significantly less time on their vice site (relative to their goal) compared to a control. It also resulted in positive sentiment toward maintaining realistic progress in the face of changing circumstances. 
+
+                </p>
+                <p>
+                    We designed and implemented a custom browser extension for the Chrome browser. The extension is able to log and visualize time spent on a user-chosen website relative to a selected daily goal. The user chooses a website they want to reduce their time using - their vice website. The user then selects one of seven possible daily goals (0 to 30 minutes in 5-minute increments). Finally, the user chooses whether to track their vice website visits all day (24 hours) or only during work hours.
+                </p>
+                <p>
+                    During use, the extension tracks (and logs on our server) attempts to go to the vice website either by entering a URL or by bringing a browser tab with the site to the foreground. Instead of the vice website, the extension first displays a Dashboard (see Figure 3). The dashboard contains buttons for the user to choose to either proceed to their website or not (selecting this latter option replaces the dashboard with a blank tab). If the user proceeds to their vice site, their time is logged on our servers. If, during their time on the vice site, they reach their daily goal, they are automatically forwarded to the dashboard. As before, they can then choose to return to their vice site or not. The dashboard also contains information about the currentday's time spent on the site and information about the previous 4 days. Following the first visual design from study 1, the background color for each day conveyed whether the user spent less time than their goal (green) or exceeded their goal (red). A gold star was awarded for days where the goal was achieved, and a red X otherwise. 
+                </p>
+                
+               <h4>Project Publications </h4>         
+                <p>
+                    <span class="paper-title">Staying the Course: System-Driven Lapse Management for Supporting Behavior Change </span></br>
+                    E Agapie, D Avrahami, J Marlow  </br>
+                    CHI 2016 &#8226 <a href="http://eagapie.com/pubs/chi2015_stayingthecourse.pdf">pdf</a> &#8226 <span class="highlight-text">Honorable Mention Best Paper Award (top 5%) </span>
+                </p>
+             </div>
+        </div>
+        
+        <div class="col-sm-2">
+            
+        </div>
+        <div class="col-sm-1">
+        </div>
+
+        
+    </div>
+
+    
+    </div> <!-- /container -->
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39701237-1', 'elenaagapie.com');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
