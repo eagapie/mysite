@@ -826,6 +826,10 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(0, 0, 0, 0.3);
 }
 
+p {
+    font-size: 14px;
+}
+
 p.news .desc {
   font-size: 12px;
   color: #909090;
