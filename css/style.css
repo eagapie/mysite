@@ -15,7 +15,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  color: #484848;
+  color: #343434;
+  /*#484848;*/
   background: #fff;
   /*max-width: 600px;*/
 }
@@ -832,11 +833,13 @@ p {
 
 p.news .desc {
   font-size: 12px;
-  color: #909090;
+  color: #313131;
+   /*#909090;*/
 }
 .news.desc {
   font-size: 12px;
-  color:  #909090;
+  color:  #313131;
+  /*#909090;*/
 }
 p.news  {
   margin-bottom: 10px;
