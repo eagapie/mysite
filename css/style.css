@@ -831,6 +831,23 @@ p {
     font-size: 14px;
 }
 
+p .conf{
+  font-size: 12px;
+  color: #313131;
+  /*font-weight: 500;*/
+   /*#909090;*/
+}
+
+p .title-paper{
+  font-size: 14px;
+  color: #313131;
+  font-family: "Segoe UI Semibold", "Space Mono", Arial, serif;
+
+  /*font-weight: 500;*/
+
+   /*#909090;*/
+}
+
 p.news .desc {
   font-size: 12px;
   color: #313131;
@@ -1411,9 +1428,9 @@ p.news  {
 /*# sourceMappingURL=style.css.map */
 
 .paper-title{
-    /*font-family: "Segoe UI Semibold", "Space Mono", Arial, serif;*/
-  color: #000;
   font-family: "Segoe UI", "Space Mono", Arial, serif;
+  color: #000;
+  /*font-family: "Segoe UI", "Space Mono", Arial, serif;*/
   font-weight: 400;
   margin: 0 0 20px 0;
   font-size: 12px;
